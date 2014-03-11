@@ -8,14 +8,12 @@ $text-color:									#363636;
 $navbar-default-bg:							#16a085;	
 $navbar-default-link-color:				white;
 $navbar-default-link-hover-color:		black;	
-$navbar-height:								45px;
+$navbar-height:								50px;
 
 
 
 $btn-primary-color: white;
 $btn-primary-bg: #16a085;
-
-
 
 @import 'bootstrap';
 
@@ -25,13 +23,13 @@ top: 0px;
 left: 0px;
 height: 680px;
 width: 100%;
-background-image: url(macbook_onemonth14.jpg);
+background-image: url(alanya2.jpg);
 background-size: cover;
 color: white;
 text-align: right;
 }
 
-#how {
+#lejligheden {
 	text-align: center;
 	position: absolute;
 	top: 680px;
@@ -42,12 +40,13 @@ text-align: right;
 	color: #16a085;
 }
 
-#how1 {
+#plantegning {
 	text-align: center;
+	font-size: 14px;
 	position: absolute;
 	top: 1180px;
 	left: 0px;
-	height: 300px;
+	height: 500px;
 	width: 100%;
 	background-color: white;
 	color: #16a085;
@@ -65,7 +64,7 @@ text-align: right;
 
 
 
-#excelprojects {
+#billeder {
 	text-align: center;
 	position: absolute;
 	top: 1450px;
@@ -80,16 +79,17 @@ text-align: right;
 
 
 
-#omexcelschool {
-	text-align: left;
+#fakta {
+	text-align: center;
 	position: absolute;
+	font-size: 14px;
 	top: 1950px;
 	left: 0px;
 	height: 550px;
 	width: 100%;
 	background-size: cover;
 	background-color: white;
-	color: white;
+	color: black;
 }
 
 
@@ -107,6 +107,7 @@ text-align: right;
 
 
 #footer{
+	text-align: center;
 	position: absolute;
 	top: 2850px;
 	left: 0px;
